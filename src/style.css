@@ -1,0 +1,125 @@
+:root{
+  font-family: "Press Start 2P", serif;
+  --primary-color:#9EC91E;
+  --secondary-color:#F2C244;
+}
+body{
+  overflow-y: hidden;
+}
+
+.main-section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.parent{
+  width: 40rem;
+ min-height: 99vh;
+ 
+}
+.top-sec{
+  height: 38vh;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+.text-content{
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+
+ .right{
+  display: flex;
+  gap: 1rem;
+}
+.left{
+  display: flex;
+  gap: 1rem;
+}
+.left a{
+  color: blue;
+}
+.computer{
+  display: flex;
+  justify-content: center;
+  margin-top: 0rem;
+
+}
+.computer-section p{
+  padding-bottom: 1rem;
+}
+
+.hand{
+  margin-top: 0rem;
+  width: 8rem;
+  height: 8rem;
+  border: dotted;
+  
+
+}
+
+.center-text{
+  padding: 1.2rem;
+  text-align: center;
+  background-color: var(--secondary-color);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.bottom-sec{
+  height: 53vh;
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+.container-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#hand{
+  margin-top: 1rem;
+}
+.player-choice-section{
+  margin-top: 1rem;
+ display: flex;
+ gap: 1.5rem;
+}
+.container-bottom p{
+margin-top: 1rem;
+}
+.choice1{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+  height: auto;
+  width: 7rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  
+}
+.choice1 p{
+  font-size: 0.8rem;
+}
+
+#emoji{
+  font-size: 2.5rem;
+}
+
+.fist{
+  font-size: 5rem;
+}
+.choice-text{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+#Scissors{
+  width: 9rem;
+}
