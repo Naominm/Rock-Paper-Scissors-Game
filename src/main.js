@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function () {
   let choices = document.querySelectorAll(".choice1");
   let playerHand = document.querySelector(".bottom-sec .fist");
