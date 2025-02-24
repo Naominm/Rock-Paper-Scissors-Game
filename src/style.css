@@ -1,68 +1,81 @@
-:root{
+:root {
   font-family: "Press Start 2P", serif;
-  --primary-color:#9EC91E;
-  --secondary-color:#F2C244;
+  --primary-color: #9ec91e;
+  --secondary-color: #f2c244;
 }
-body{
+body {
   overflow-y: hidden;
 }
 
-.main-section{
+.main-section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
 }
 
-.parent{
+.parent {
   width: 40rem;
- min-height: 99vh;
- 
+  min-height: 99vh;
 }
-.top-sec{
+.top-sec {
   height: 38vh;
   width: 100%;
   background-color: var(--primary-color);
 }
-.text-content{
+.text-content {
   display: flex;
   font-size: 0.9rem;
   justify-content: space-between;
   padding: 1rem;
   font-weight: 400;
+  /* border: 2px solid red; */
 }
 
-
- .right{
+.right {
+  display: flex;
+  gap: 1rem;
+  /* border: 2px solid yellow; */
+}
+.left {
   display: flex;
   gap: 1rem;
 }
-.left{
-  display: flex;
-  gap: 1rem;
-}
-.left a{
+.left a {
   color: blue;
 }
-.computer{
+@media screen and (max-width: 46.875rem) {
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+  .right {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+}
+.computer {
   display: flex;
   justify-content: center;
   margin-top: 0rem;
-
+  /* border: 2px solid red; */
 }
-.computer-section p{
+.computer-section p {
   padding-bottom: 1rem;
+  /* border: 2px solid red; */
 }
 
-.hand{
+.hand {
   margin-top: 0rem;
   width: 8rem;
   height: 8rem;
   border: dotted;
-  
-
 }
 
-.center-text{
+.center-text {
   padding: 1.2rem;
   text-align: center;
   background-color: var(--secondary-color);
@@ -70,56 +83,68 @@ body{
   font-size: 1.2rem;
   font-weight: 400;
 }
-.bottom-sec{
+.bottom-sec {
   height: 53vh;
   width: 100%;
   background-color: var(--primary-color);
   display: flex;
   justify-content: center;
 }
-.container-bottom{
+.container-bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#hand{
+#hand {
   margin-top: 1rem;
 }
-.player-choice-section{
+.player-choice-section {
   margin-top: 1rem;
- display: flex;
- gap: 1.5rem;
-}
-.container-bottom p{
-margin-top: 1rem;
-}
-.choice1{
   display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  /* border: 2px solid red; */
+}
+@media screen and (max-width: 33.125rem) {
+  .player-choice-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+.container-bottom p {
+  margin-top: 1rem;
+}
+.choice1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: auto;
   width: 7rem;
   background-color: #fff;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
-  
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
 }
-.choice1 p{
+.choice1 p {
   font-size: 0.8rem;
 }
 
-#emoji{
+#emoji {
   font-size: 2.5rem;
 }
 
-.fist{
+.fist {
   font-size: 5rem;
 }
-.choice-text{
+.choice-text {
   font-size: 1rem;
   padding-bottom: 1rem;
 }
-#Scissors{
+#Scissors {
   width: 9rem;
 }

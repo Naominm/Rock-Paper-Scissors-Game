@@ -2,65 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-   
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <title>Rock-Paper-Scissors</title>
   </head>
   <body>
- <div class="main-section">
-  <div class="parent">
-    <div class="top-sec">
-     <div class="text-content">
-      <div class="left">
-      <p>&copy; </p>
-      <a href="#">Naomi Mbugua</a>
-    </div>
-    <div class="right">
-      <p>computer <span>0</span></p>
-      <p> <span>0</span> player</p>
-    </div>
-     </div>
-     <div class="computer">
-      
-     <div class="computer-section">
-      <p>Computer</p>
-      <div class="hand">
-        <h1 class="fist">✌️</h1>
+    <div class="main-section">
+      <div class="parent">
+        <div class="top-sec">
+          <div class="text-content">
+            <div class="left">
+              <p>&copy;</p>
+              <a href="#">Naomi Mbugua</a>
+            </div>
+            <div class="right">
+              <p>computer <span id="computer-score">0</span></p>
+              <p><span id="player-score">0</span> player</p>
+            </div>
+          </div>
+          <div class="computer">
+            <div class="computer-section">
+              <p>Computer</p>
+              <div class="hand">
+                <h1 class="fist">✌️</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="center-text">Currently Draw</h1>
+        <div class="bottom-sec">
+          <div class="container-bottom">
+            <p>Player</p>
+            <div class="hand" id="hand">
+              <h1 class="fist">✌️</h1>
+            </div>
+            <div class="player-choice-section">
+              <div class="choice1">
+                <p id="emoji">✊</p>
+                <p class="choice-text">Rock</p>
+              </div>
+              <div class="choice1">
+                <p id="emoji">✋</p>
+                <p class="choice-text">paper</p>
+              </div>
+              <div class="choice1" id="Scissors">
+                <p id="emoji">✌️</p>
+                <p class="choice-text">Scissors</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
 
-     </div>
-    </div>
-    </div>
-    <h1 class="center-text"> Currently Draw</h1>
-    <div class="bottom-sec">
-      
-      <div class="container-bottom">
-        <p>Player</p>
-      <div class="hand" id="hand">
-<h1 class="fist">✌️</h1>
-      </div>
-      <div class="player-choice-section">
-        <div class="choice1">
-          <p id="emoji">✊</p>
-          <p class="choice-text">Rock</p>
-        </div>
-        <div class="choice1">
-          <p id="emoji">✋</p>
-          <p class="choice-text">paper</p>
-        </div>
-        <div class="choice1" id="Scissors">
-          <p id="emoji">✌️</p>
-          <p class="choice-text">Scissors</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
- </div>
-  
+    <script src="./src/main.js"></script>
   </body>
 </html>
