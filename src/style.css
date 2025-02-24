@@ -3,9 +3,15 @@
   --primary-color: #9ec91e;
   --secondary-color: #f2c244;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   overflow-y: hidden;
-}
+} 
 
 .main-section {
   min-height: 100vh;
@@ -71,7 +77,7 @@ body {
 .hand {
   margin-top: 0rem;
   width: 8rem;
-  height: 8rem;
+  height: auto;
   border: dotted;
 }
 
@@ -99,7 +105,7 @@ body {
   margin-top: 1rem;
 }
 .player-choice-section {
-  margin-top: 1rem;
+  margin-top: 0.7rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -116,6 +122,7 @@ body {
 }
 .container-bottom p {
   margin-top: 1rem;
+ 
 }
 .choice1 {
   display: flex;
@@ -123,15 +130,16 @@ body {
   align-items: center;
   justify-content: center;
   height: auto;
-  width: 7rem;
+  width: 6rem;
   background-color: #fff;
   border-radius: 0.5rem;
-  margin-bottom: 1rem;
+ padding-bottom: 0rem;
   flex-wrap: wrap;
+  padding: 0rem;
   /* border: 2px solid red; */
 }
 .choice1 p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 #emoji {
@@ -146,5 +154,5 @@ body {
   padding-bottom: 1rem;
 }
 #Scissors {
-  width: 9rem;
+  width: 7rem;
 }
